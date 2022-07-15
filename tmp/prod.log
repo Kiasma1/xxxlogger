@@ -1,0 +1,1 @@
+{"level":"INFO","ts":"2022-07-15T23:32:40.563+0800","msg":"Info test log","user":{"Name":"lzc"},"func":"xxxlogger.TestMain","file":"/Users/kiasma/GolandProjects/xxxlogger/main_test.go","line":23}
