@@ -2,6 +2,7 @@ package xxxlogger
 
 import (
 	"go.uber.org/zap"
+	"os"
 	"testing"
 )
 
@@ -22,4 +23,7 @@ func TestMain(m *testing.M) {
 
 	Info("Info test log", zap.Any("user", user))
 	Debug("Debug test log", zap.Any("user", user))
+
+	exitCode := m.Run()
+	os.Exit(exitCode)
 }
